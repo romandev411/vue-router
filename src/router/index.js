@@ -38,12 +38,6 @@ const routes = [
 			},
 		],
 	},
-	{
-		path: '/',
-		name: 'modal1',
-		redirect: { path: '/', hash: '#modal1' },
-		caseSensitive: true,
-	},
 ];
 
 const router = new VueRouter({
